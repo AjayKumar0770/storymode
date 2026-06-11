@@ -1,8 +1,9 @@
 dist
 .now
 .vercel
+.next
 node_modules
-public
+public/developer-playbook-ai-era
 .DS_Store
 *.log
 *.env
