@@ -1,0 +1,152 @@
+[
+  {
+    "start": "400",
+    "end": "700",
+    "text": "My name is Ajay Kumar"
+  },
+  {
+    "start": "700",
+    "end": "900",
+    "text": "I'm a MERN stack developer"
+  },
+  {
+    "start": "1000",
+    "end": "1200",
+    "text": "I support databases, servers,"
+  },
+  {
+    "start": "1200",
+    "end": "1400",
+    "text": "system engineering,"
+  },
+  {
+    "start": "1600",
+    "end": "1800",
+    "text": "and frontend clients."
+  },
+  {
+    "start": "2000",
+    "end": "2300",
+    "text": "Based in Chennai, Tamil Nadu"
+  },
+  {
+    "start": "2400",
+    "end": "2500",
+    "text": "(loves coding and UI/UX)"
+  },
+  {
+    "start": "2600",
+    "end": "2800",
+    "text": "always eager to learn and grow 🚀"
+  },
+  {
+    "start": "2900",
+    "end": "3300",
+    "text": "I've gained valuable full-stack experience in MERN ecosystems"
+  },
+  {
+    "start": "3400",
+    "end": "3700",
+    "text": "At Labmentix and CodeAlpha, building scalable APIs and modular libraries."
+  },
+  {
+    "start": "3800",
+    "end": "4000",
+    "text": "Currently pursuing my CSE B.E. at RMK College of Engineering and Technology."
+  },
+  {
+    "start": "4500",
+    "end": "4700",
+    "text": "I build intelligent systems and modern web platforms"
+  },
+  {
+    "start": "4800",
+    "end": "5100",
+    "text": "such as an AI-powered Spam Detection system,"
+  },
+  {
+    "start": "5100",
+    "end": "5400",
+    "text": "a Document E-Sign platform,"
+  },
+  {
+    "start": "5400",
+    "end": "5700",
+    "text": "or Student-Centric Guidance systems."
+  },
+  {
+    "start": "6500",
+    "end": "6800",
+    "text": "I love participating in coding hackathons and technical project presentations."
+  },
+  {
+    "start": "6800",
+    "end": "7000",
+    "text": "Even got 2nd place at R.M.D Engineering College!"
+  },
+  {
+    "start": "7000",
+    "end": "7300",
+    "text": "I focus on website functionality and platform compatibility."
+  },
+  {
+    "start": "7300",
+    "end": "7600",
+    "text": "Meticulously creating fully functional code is my priority. 💻"
+  },
+  {
+    "start": "7600",
+    "end": "7900",
+    "text": "Thank you for visiting my portfolio."
+  },
+  {
+    "start": "7900",
+    "end": "8000",
+    "text": "Let's connect and build something amazing together!"
+  },
+  {
+    "start": "8000",
+    "end": "8600",
+    "text": "The path isn’t always clear. Sometimes, it feels like climbing in the dark, guided only by the faint glow of what you hope to become.",
+    "position": {
+      "portrait": "bottom",
+      "landscape": "bottom"
+    }
+  },
+  {
+    "start": "8600",
+    "end": "9200",
+    "text": "But every step teaches you something. Every stumble shapes your stride. And one day, you look back and realize—you’ve built your own mountain.",
+    "position": {
+      "portrait": "bottom",
+      "landscape": "bottom"
+    }
+  },
+  {
+    "start": "9200",
+    "end": "10400",
+    "text": "Keep climbing. The view is worth it.",
+    "position": {
+      "portrait": "bottom",
+      "landscape": "bottom"
+    }
+  },
+  {
+    "start": "11100",
+    "end": "11800",
+    "text": "I used to think the best developers were the ones who knew the most.",
+    "position": {
+      "portrait": "bottom",
+      "landscape": "bottom"
+    }
+  },
+  {
+    "start": "11800",
+    "end": "13000",
+    "text": "Now I know they’re the ones who help the most.",
+    "position": {
+      "portrait": "bottom",
+      "landscape": "bottom"
+    }
+  }
+]
