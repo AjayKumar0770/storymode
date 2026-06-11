@@ -26,10 +26,16 @@
 
 #subtitles {
   font-size: 5vh;
+  font-weight: 500;
   color: #fff;
-  background: rgb(0 0 0 / 50%);
-  padding: 0.5vh 2vh;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 8px;
+  padding: 1vh 2.5vh;
   text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 
   @media screen and (orientation: portrait) {
     font-size: 3vh;
