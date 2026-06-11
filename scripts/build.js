@@ -39,7 +39,7 @@ runCmd('node scripts/process-svg.js');
 // Step 2: Build Sub-project (Vite app)
 console.log('\n--- Step 2: Building developer-playbook-ai-era ---');
 const subProjectDir = path.resolve(__dirname, '../developer-playbook-ai-era');
-runCmd('npm install --legacy-peer-deps', subProjectDir);
+runCmd('npm install --legacy-peer-deps --production=false --include=dev', subProjectDir);
 runCmd('npm run build', subProjectDir);
 
 // Step 3: Copy build output to public/developer-playbook-ai-era
