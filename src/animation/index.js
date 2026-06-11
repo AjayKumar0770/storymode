@@ -93,6 +93,12 @@ export default function Scene({ width = 0, height = 0, isPortrait = false }) {
 
     getTicker(observer);
 
+    // Direct scroll event listener for 100% reliable updates in all browsers
+    const handleScroll = () => {
+      onTick(transitionsData, transitionElements, []);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
     // Handle fast scroll events to ensure animations don't skip frames
     const handleFastScroll = () => {
       // Force a tick update for fast scroll positions
@@ -103,6 +109,7 @@ export default function Scene({ width = 0, height = 0, isPortrait = false }) {
 
     return () => {
       observer.disconnect();
+      window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("fastScroll", handleFastScroll);
     };
   }, [isPortrait]);

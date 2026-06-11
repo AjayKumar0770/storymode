@@ -49,8 +49,14 @@ export default function Subtitles() {
   useEffect(() => {
     getTicker(observer);
 
+    const handleScroll = () => {
+      onTick();
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
     return () => {
       observer.disconnect();
+      window.removeEventListener("scroll", handleScroll);
     };
   });
 
